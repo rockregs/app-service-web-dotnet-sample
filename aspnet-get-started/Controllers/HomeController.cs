@@ -24,7 +24,7 @@ namespace aspnet_get_started.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
-            return View();
+            void View();
         }
     }
 }
